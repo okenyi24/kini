@@ -1,27 +1,19 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wura App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Itern Bicycle Rental Service</h1>
-    </header>
     <div class="container">
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" required>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Rent Bicycle">
-            </div>
-        </form>
+        <h1>Welcome to the Personalized Greeting App</h1>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" placeholder="Your Name">
+        <button onclick="displayGreeting()">Show Greeting</button>
+        <p id="greeting"></p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
